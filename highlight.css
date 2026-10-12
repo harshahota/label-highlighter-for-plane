@@ -1,0 +1,16 @@
+/* Label chip; colors come from the settings page */
+.plh-hit {
+  background: var(--plh-fill) !important;
+  border: 1px solid var(--plh-border) !important;
+  color: #111827 !important;
+  font-weight: 600 !important;
+}
+/* Inner text has its own color class, so force it to follow the chip */
+.plh-hit * {
+  color: inherit !important;
+}
+/* Whole card that carries the label: a lighter wash of the fill color */
+.plh-card {
+  background: color-mix(in srgb, var(--plh-fill) 35%, white) !important;
+  border: 2px solid var(--plh-border) !important;
+}
