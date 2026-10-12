@@ -50,6 +50,10 @@ Store listing text lives in `docs/store-listing.md`; store images in `store/`.
 
 The extension reads label text on Plane pages only to decide what to color. It collects nothing and sends nothing anywhere.
 
+## License
+
+[MIT](LICENSE)
+
 ---
 
 Not affiliated with or endorsed by Plane.
