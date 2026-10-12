@@ -44,7 +44,7 @@ mkdir -p dist && zip -r -X dist/label-highlighter-for-plane-$(jq -r .version man
   manifest.json background.js defaults.js highlight.js highlight.css options.html options.js icons
 ```
 
-Store listing text lives in `docs/store-listing.md`; store images in `store/`.
+Store images live in `store/`.
 
 ## Privacy
 
